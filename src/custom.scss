@@ -1,0 +1,24 @@
+/* make the customizations */
+$theme-colors: (
+    'plain': white,
+    'plain-5': #f1f3f5,
+    'secondary':#b1b1b1,
+    'light-grey': #dfdfdf9d,
+    'navyBlue': #2F6CE5,
+    "warning": yellow,
+    "dark": black,
+    "info": tomato,
+    "danger": teal,
+    'glass': transparent
+);
+
+$position-values: (
+    0: 0,
+    20: 20%,
+    50: 50%,
+    87: 87%,
+    100: 100%
+);
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
